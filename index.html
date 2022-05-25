@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>AZUR Fisioterapia</title>
+</head>
+<body>
+    <nav class=" container navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary" href="#">AZUR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#services">Servicios</a>
+                    <a class="nav-link" href="#aboutAs">Acerca de</a>
+                    <a class="nav-link" href="#contact">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div
+        class="cover d-flex justify-content-end align-items-start flex-column p-5"
+        style="background-image:url(/image/Header.png)"
+      >
+        <h1>
+            <div class="text-primary">
+                AZUR
+            </div>
+             Fisioterapia</h1>
+        <h3>Atención médica ahora <br>
+            Simplificado para todos</h3>
+      </div>    
+    </header>
+    <main class="container mt-5 mb-5" id="services">
+        <div class="text-primary fs-5 mb-5 text-center ">
+            <p>Servicios</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <div
+                title=""
+                class="cover cover-small"
+                style="background-image:url(./image/pedriatria.jpg)"
+              ></div>     
+                  <!--   <img src="./image/pedriatria.jpg" class="card-img-top" alt="...">-->
+                <div class="card-body">
+                  <h5 class="card-title">Pediatria</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <div
+                title=""
+                class="cover cover-small"
+                style="background-image:url(./image/neurologia.jpg)"
+              ></div>  
+                <div class="card-body">
+                  <h5 class="card-title">Terapia Neurológica</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                    <div
+                    title=""
+                    class="cover cover-small"
+                    style="background-image:url(./image/deportiva.jpg)"
+                  ></div> 
+                <div class="card-body">
+                  <h5 class="card-title">Terapia Deportiva</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div
+                title=""
+                class="cover cover-small"
+                style="background-image:url(./image/respiratoria.jpg)"
+              ></div> 
+                <div class="card-body">
+                  <h5 class="card-title">Teratia Respiratoria</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+                <div class="card">
+                <div
+                    title=""
+                    class="cover cover-small"
+                    style="background-image:url(./image/posquirurjica.jpg)"
+                  ></div> 
+                  <div class="card-body">
+                    <h5 class="card-title">Teratia Posquirúrgica</h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <div
+                    title=""
+                    class="cover cover-small"
+                    style="background-image:url(./image/traumatologica.jpg)"
+                  ></div> 
+                  <div class="card-body">
+                    <h5 class="card-title">Teratia Traumatológica</h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </main>  
+
+    <section class="pt-5 mb-5 container" id="contact">
+        <h2 class="h1-responsive font-weight-bold text-center my-4 text-primary text-center">Contacto</h2>
+        <p class="text-center w-responsive mx-auto mb-5">
+            Quieres ponerte en contacto con nosotros.
+             Por favor llena el siguiente formulario para obtener información, estamos al pendiente.
+        </p>
+
+        <div class="row">
+
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="text-secondary">Nombre y Apellido</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="text-secondary">email</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="text-secondary">Asunto</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <div class="md-form text-secondary">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Mensaje</label>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                </div>
+                <div class="status"></div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p> César Borja Cordero y Albert Einstein <br>
+                            Quito, Ecuador</p>
+                    </li>
+
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+593  98 496 3104</p>
+                    </li>
+
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>contact_azur@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container pb-5" id="aboutAs">
+        <div class="text-primary fs-5 mb-5 text-center">
+            <h2>Acerca de</h2>
+        </div>
+        <div class="text-center">
+            <img
+              src="/image/therapy.png"
+              height="250"
+            />
+        <div>   
+            <div class="text-primary fs-5 mt-5 text-center">
+                <h3>Misión</h3>
+            </div>
+            <p>Satisfacer de manera eficaz y eficiente las necesidades de cuidado del paciente</p>
+            <div class="text-primary fs-5 mt-5 text-center">
+                <h3>Visión</h3>
+            </div>
+            <p>Brindar y mantener un sistema de bienestar privado, ofreciendo atención de calidad acorde al profesionalismo que brinda la clínica</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
