@@ -1,3 +1,10 @@
+<%-- 
+    Document   : index
+    Created on : 2 jun. 2022, 18:30:04
+    Author     : Erick
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,17 +25,29 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" href="#services">Servicios</a>
+                    <a class="nav-link" href="#contact">Encuentranos</a>
                     <a class="nav-link" href="#aboutAs">Acerca de</a>
-                    <a class="nav-link" href="#contact">Contacto</a>
                 </div>
             </div>
+            <a href="login.jsp">
+                <button class="btn btn-primary w-100">
+                    Iniciar Sesion
+                </button>
+            </a>
+            <a href="singup.jsp">
+                <button class="btn w-100">
+                    Registrarse
+                </button>
+            </a>
+            
         </div>
     </nav>
     <header>
         <div
         class="cover d-flex justify-content-end align-items-start flex-column p-5"
-        style="background-image:url(/image/Header.png)"
+        style="background-image:url(./images/Header.png)"
       >
+            
         <h1>
             <div class="text-primary">
                 AZUR
@@ -129,81 +148,12 @@
     </main>  
 
     <section class="pt-5 mb-5 container" id="contact"></section>
-        <h2 class="h1-responsive font-weight-bold text-center my-4 text-primary text-center">Contacto</h2>
+        <h2 class="h1-responsive font-weight-bold text-center my-4 text-primary text-center">Encuentranos</h2>
         <p class="text-center w-responsive mx-auto mb-5">
             Quieres ponerte en contacto con nosotros.
-             Por favor llena el siguiente formulario para obtener información, estamos al pendiente.
         </p>
-
-        <div class="row">
-
-            <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-
-                    <div class="row">
-
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="name" name="name" class="form-control">
-                                <label for="name" class="text-secondary">Nombre y Apellido</label>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="email" name="email" class="form-control">
-                                <label for="email" class="text-secondary">email</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-0">
-                                <input type="text" id="subject" name="subject" class="form-control">
-                                <label for="subject" class="text-secondary">Asunto</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-md-12">
-
-                            <div class="md-form text-secondary">
-                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                <label for="message">Mensaje</label>
-                            </div>
-
-                        </div>
-                    </div>
-                </form>
-
-                <div class="text-center text-md-left">
-                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
-                </div>
-                <div class="status"></div>
-            </div>
-
-            <div class="col-md-3 text-center">
-                <ul class="list-unstyled mb-0">
-                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                        <p> César Borja Cordero y Albert Einstein <br>
-                            Quito, Ecuador</p>
-                    </li>
-
-                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                        <p>+593  98 496 3104</p>
-                    </li>
-
-                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                        <p>contact_azur@gmail.com</p>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.813307967258!2d-78.48308318533057!3d-0.09082029993373306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d585f4a7960947%3A0x8b324bc81c370e29!2sAlbert%20Einstein%20%26%20Cesar%20Borja%20Cordero%2C%20Quito%20170134!5e0!3m2!1ses!2sec!4v1654234385332!5m2!1ses!2sec" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
 
     </section>
 

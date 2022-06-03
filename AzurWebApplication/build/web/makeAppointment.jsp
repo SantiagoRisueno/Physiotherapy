@@ -1,24 +1,10 @@
-<?php
-include "db_connect.php";
-$id = $_GET['id'];
+<%-- 
+    Document   : makeAppointment
+    Created on : 3 jun. 2022, 00:14:55
+    Author     : Erick
+--%>
 
-if(isset($_POST['submit'])){
-    $patient = $_POST['patient'];
-    $date = $_POST['date'];
-
-    $sql = "INSERT INTO `appointment`( `idDoctor`, `idPatient`, `dateAppointment`) VALUES ('$id','$patient','$date')";
-
-    $result = mysqli_query($conn, $sql);
-
-    if($result){
-        header("Location: dashboard.php?id=$id");
-    }else{
-        echo "Failed: " . mysqli_error($conn);
-    }
-}  
-?>
-
-
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,14 +28,7 @@ if(isset($_POST['submit'])){
                         <div class="form-group">
                             <label for="firstName">Paciente</label>
                             <select id="patient" class="form-control" name="patient">
-                                <?php
-                                    include "db_connect.php";
-                                    $sql = "SELECT * FROM patient";
-                                    $result = mysqli_query($conn, $sql);
-                                    while($row = mysqli_fetch_assoc($result)){
-                                        echo "<option value='" . $row['idPatient'] . "'>" . $row['namePatient'] . "</option>";
-                                    }
-                                ?>
+                                
                             </select>
                         </div>
                     </div>
