@@ -45,7 +45,7 @@
     <header>
         <div
         class="cover d-flex justify-content-end align-items-start flex-column p-5"
-        style="background-image:url(./images/Header.png)"
+        style="background-image:url(./image/Header.png)"
       >
             
         <h1>
@@ -163,7 +163,7 @@
         </div>
         <div class="text-center">
             <img
-              src="/image/therapy.png"
+              src="./image/therapy.png"
               height="250"
             />
         <div>   
