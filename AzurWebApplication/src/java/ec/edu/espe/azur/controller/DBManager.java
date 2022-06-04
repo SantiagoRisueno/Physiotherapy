@@ -3,10 +3,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package dbManage;
-import azurClasses.Appointment;
-import azurClasses.Customer;
-import azurClasses.Physiotherapist;
+package ec.edu.espe.azur.controller;
+import ec.edu.espe.azur.model.Appointment;
+import ec.edu.espe.azur.model.Customer;
+import ec.edu.espe.azur.model.Physiotherapist;
 import com.google.gson.Gson;
 import com.mongodb.BasicDBObject;
 import com.mongodb.MongoClient;

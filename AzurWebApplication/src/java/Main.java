@@ -1,5 +1,5 @@
 
-import dbManage.DBManager;
+import ec.edu.espe.azur.controller.DBManager;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
