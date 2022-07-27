@@ -1,1 +1,0 @@
-# Azur Fisioterapia - Other folder
