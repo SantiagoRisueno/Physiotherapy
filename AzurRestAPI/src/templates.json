@@ -1,0 +1,57 @@
+// Users
+// http://localhost:5000/azur/users
+{
+    "idUsers": "1",
+    "ci": "1753420000",
+    "name": "Erick Riascos",
+    "age": 20,
+    "sex": "M",
+    "city": "Quito",
+    "address": "Rosario Borja y calle b",
+    "phone": "0995863153",
+    "email": "egriascos@espe.edu.ec",
+    "password": "010901",
+    "type": 1
+}
+
+// Assignament
+// http://localhost:5000/azur/assignament
+{   
+    "idAppointment": "1",
+    "date": "17/08/2011",
+    "time": "15:00",
+    "pathology": "dolor de cabeza",
+    "customer": "1753420080",
+    "physiotherapist": "0803122035"
+}
+
+// Historial
+// http://localhost:5000/azur/history/
+{
+    "idHistory": "1",
+    "idAssignament": "1",
+    "treatment": "Masajes",
+    "pathology": "dolores en la cadera"
+}
+
+// Message
+// http://localhost:5000/azur/message/
+{
+    "idMessage": "1",
+    "name": "Matilca Carrion",
+    "email": "matilda@espe.edu.ec",
+    "subject": "Mala atención",
+    "message": "Sigo teniendo dolores, pesima atención"
+}
+
+//Blog
+// http://localhost:5000/azur/blog
+{
+    "idBlog":"1",
+    "date":"14:24 19/06/2022",
+    "author":"Rosario Borja",
+    "title":"Fisioterapia",
+    "description":"FLorem ipsum dolor sit amet consectetur adipiscing, elit elementum conubia euismod libero facilisis, penatibus eu dis dui parturient. Cras netus sem non tellus vivamus platea congue, et mus egestas per proin natoque. Imperdiet odio magna ut elementum luctus condimentum varius parturient aliquet lacus cras, integer morbi platea cursus dui fusce ornare taciti eleifend sodales ultricies, conubia a volutpat himenaeos quisque facilisis tellus per in vehicula.",
+    "img":"https://rekoveryclinic.com/wp-content/uploads/2022/07/Tecnicas-mas-utilizadas-en-fisioterapia-respiratoria.jpg",
+    "categories":"Respiratoria"
+}
