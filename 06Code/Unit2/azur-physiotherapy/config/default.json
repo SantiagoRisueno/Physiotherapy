@@ -1,0 +1,12 @@
+{
+    "server": {
+        "host": "localhost",
+        "port": 5000,
+        "dbConnection": "mongodb://dnpoma:12345@webuniversity-shard-00-00.po9hy.mongodb.net:27017,webuniversity-shard-00-01.po9hy.mongodb.net:27017,webuniversity-shard-00-02.po9hy.mongodb.net:27017/test?replicaSet=atlas-cx7fk5-shard-0&ssl=true&authSource=admin"
+    },
+    "client": {
+        "host": "localhost",
+        "port": 3000,
+        "baseUrl": "http://localhost:5000"
+    }
+}
